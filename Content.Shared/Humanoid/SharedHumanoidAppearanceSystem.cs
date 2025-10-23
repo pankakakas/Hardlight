@@ -545,6 +545,40 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
     }
 
     /// <summary>
+    ///     Sets the visibility of a specific marking on this humanoid.
+    /// </summary>
+    /// <param name="uid">Humanoid entity UID (owner of the appearance component).</param>
+    /// <param name="humanoid">The appearance component.</param>
+    /// <param name="markingId">The marking prototype ID.</param>
+    /// <param name="visible">True to show the marking, false to hide it.</param>
+    public virtual void SetMarkingVisibility(EntityUid uid, HumanoidAppearanceComponent? humanoid, string markingId, bool visible)
+    {
+        if (!Resolve(uid, ref humanoid))
+            return;
+
+        // Only toggle if the marking actually exists on this humanoid.
+        var hasMarking = humanoid.MarkingSet.Markings.Values
+            .SelectMany(list => list)
+            .Any(m => m.MarkingId == markingId);
+
+        if (!hasMarking)
+            return;
+
+        var dirty = false;
+        if (visible)
+        {
+            dirty |= humanoid.HiddenMarkings.Remove(markingId);
+        }
+        else
+        {
+            dirty |= humanoid.HiddenMarkings.Add(markingId);
+        }
+
+        if (dirty)
+            Dirty(uid, humanoid);
+    }
+
+    /// <summary>
     /// Takes ID of the species prototype, returns UI-friendly name of the species.
     /// </summary>
     public string GetSpeciesRepresentation(string speciesId)
