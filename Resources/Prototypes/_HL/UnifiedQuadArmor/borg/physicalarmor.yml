@@ -9,8 +9,8 @@
   name: LSAP-MKII Armour Plating
   description: Light Synthetic Armour. Thin, interwoven plates of plasteel, synthetic fibers, and steel. Mildly protective.
   components:
-  - type: Contraband
-    severity: Class1
+  #- type: Contraband
+  #  severity: Class1
   - type: Sprite
     sprite: _HL/Objects/BorgArmor/physarmor/borglightarmor.rsi
   - type: ExplosionResistance
@@ -34,10 +34,10 @@
   name: MSAP-MKIV Medium Plating
   description: Medium Synthetic Armour Plates. A mix of plastitanium and plasteel alloys, thick enough to shrug off small arms fire, while not heavily impeding mobility.
   components:
-  - type: Contraband
-    severity: Class2
+  #- type: Contraband
+   # severity: Class2
     #This is annoying as fuck to deal with.
-    allowedDepartments: [ Security, Command ]
+    #allowedDepartments: [ Security, Command ]
   - type: Sprite
     sprite: _HL/Objects/BorgArmor/physarmor/borgmediumarmor.rsi
   - type: ExplosionResistance
@@ -61,10 +61,10 @@
   name: HSAP-MKV Heavy Plating
   description: Heavy-Duty and rugged; meant for active combat, this set of heavy synthetic armour plates boasts near-three-inch ballistic plates, mixed with synthetic fibers, underlying support structures and kinetic gel to disperse impact. Whatever you strap this to, isn't going anywhere anytime soon.
   components:
-  - type: Contraband
-    severity: Class2
+  #- type: Contraband
+   # severity: Class2
     #This is annoying as fuck to deal with.
-    allowedDepartments: [ Security, Command ]
+   # allowedDepartments: [ Security, Command ]
   - type: Sprite
     sprite: _HL/Objects/BorgArmor/physarmor/borgheavyarmor.rsi
   - type: ExplosionResistance
@@ -88,8 +88,8 @@
   name: TVOK-Terminator Plating
   description: Salvaged, Acquired, or otherwise procured; this set of armor is clearly designed for the heaviest duties, and most extreme environments. Lifting it is nearly impossible, with the near foot-thick plates of solid alloys and plates meant to deflect projectiles creaking with each motion.
   components:
-  - type: Contraband
-    severity: Class3Syndicate
+  #- type: Contraband
+  #  severity: Class3Syndicate
   - type: Sprite
     sprite: _HL/Objects/BorgArmor/physarmor/borgheavyarmor.rsi
   - type: ExplosionResistance
@@ -97,12 +97,12 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.15
-        Slash: 0.05
+        Blunt: 0.1
+        Slash: 0.1
         Piercing: 0.1
         Heat: 0.1
         Radiation: 0 # Ditto to below
         Caustic: 0 # Synths shouldnt be taking caustic damage. Untreatable
   - type: ClothingSpeedModifier  # Stacks with other slowdowns. Be careful!
-    walkModifier: 0.55 # You are the Persuer.
-    sprintModifier: 0.4 # Ditto
+    walkModifier: 0.1 # You are the Persuer.
+    sprintModifier: 0.1 # Ditto
