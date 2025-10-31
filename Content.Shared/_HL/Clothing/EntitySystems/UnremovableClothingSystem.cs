@@ -28,6 +28,6 @@ public sealed class UnremovableClothingSystem : EntitySystem
 
     private void OnUnequipMarkup(Entity<UnremovableClothingComponent> unremovableClothing, ref ExaminedEvent args)
     {
-        args.PushMarkup(Loc.GetString("comp-unremovable-clothing"));
+        args.PushMarkup(Loc.GetString(unremovableClothing.Comp.ReasonMessage));
     }
 }

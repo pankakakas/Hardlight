@@ -1,43 +1,8 @@
-#- type: entity
-#  abstract: true
-#  parent: [Clothing, RecyclableItemClothDevice] # Frontier: added RecyclableItemClothDevice
-#  id: ClothingEyesBase
-#  components:
-#  - type: Sprite
-#    state: icon
-#  - type: Clothing
-#    slots: [eyes]
-#  - type: Item
-#    size: Small
-#    storedRotation: -90
-#
-#    - type: entity
-#  parent: ClothingMaskPullableBase
-#  id: ClothingMaskGas
-#  name: gas mask
-#  description: A face-covering mask that can be connected to an air supply.
-#  components:
-#  - type: Sprite
-#   sprite: Clothing/Mask/gas.rsi
-#  - type: Clothing
-#    sprite: Clothing/Mask/gas.rsi
-#  - type: BreathMask
-#  - type: IngestionBlocker
-#  - type: IdentityBlocker
-#  - type: Tag
-#    tags:
-#    - HamsterWearable
-#    - WhitelistChameleon
-#  - type: HideLayerClothing
-#    layers:
-#      Snout: Mask
-#    hideOnToggle: true
-
 - type: entity
   parent: ClothingEyesBase
   id: MasqueradeMask
   name: masquerade mask
-  description: A finely-made mask that hides the wearer's identity.
+  description: A finely-made mask that conceals the wearer's identity.
   components:
   - type: Sprite
     sprite: _HL/Clothing/Eyes/masquerade.rsi
@@ -57,6 +22,7 @@
   suffix: cursed
   components:
     - type: UnremovableClothing
+      reasonMessage: "masquerade-mask-unremovable"
     - type: Unrevivable
       cloneable: true
-      analyzable: false
+      reasonMessage: "masquerade-mask-unrevivable"

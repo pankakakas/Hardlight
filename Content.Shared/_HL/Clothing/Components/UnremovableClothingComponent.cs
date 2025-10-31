@@ -4,12 +4,15 @@ using Robust.Shared.GameStates;
 namespace Content.Shared.Clothing.Components;
 
 /// <summary>
-///     The component prohibits ANYONE from taking off clothes on them that have this component.
+///     The component prohibits ANYONE from taking off clothes that have this component.
 /// </summary>
-[NetworkedComponent]
-[RegisterComponent]
+[RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
 [Access(typeof(UnremovableClothingSystem))]
 public sealed partial class UnremovableClothingComponent : Component
 {
-
+    /// <summary>
+    /// The loc string used to provide a reason for the item being unremovable
+    /// </summary>
+    [DataField, AutoNetworkedField]
+    public LocId ReasonMessage = "comp-unremovable-clothing";
 }
