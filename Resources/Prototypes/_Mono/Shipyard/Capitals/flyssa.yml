@@ -16,7 +16,6 @@
   guidebookPage: Null
   class:
   - Capital
-  - Destroyer
   engine:
   - AME
 
