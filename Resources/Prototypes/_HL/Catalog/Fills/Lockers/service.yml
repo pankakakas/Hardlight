@@ -5,10 +5,12 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      entity_storage: !type:NestedSelector
-        tableId: FillLockerBooze
-      entity_storage: !type:NestedSelector
-        tableId: HLFillLockerBooze
+      entity_storage: !type:AllSelector
+        children:
+        - !type:NestedSelector
+          tableId: FillLockerBooze
+        - !type:NestedSelector
+          tableId: HLFillLockerBooze
 
 - type: entityTable
   id: HLFillLockerBooze

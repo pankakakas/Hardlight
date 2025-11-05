@@ -61,7 +61,6 @@
   id: HLFillLockerAtmospherics
   table: !type:AllSelector
     children:
-    - id: DoorRemoteFirefight
     - id: RCD
     - id: RCDAmmo
 
