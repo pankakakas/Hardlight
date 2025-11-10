@@ -20,6 +20,8 @@
     - back
   - type: MeleeWeapon
     wideAnimationRotation: -135
+    angle: 0
+    animation: WeaponArcThrust
     damage:
       types:
         Piercing: 3
