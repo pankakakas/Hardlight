@@ -26,13 +26,8 @@
 - type: entity
   parent: BaseShipVoucher
   id: ShipVoucherNfsdSergeant
-<<<<<<< HEAD
-  name: Colsec sergeant ship voucher
-  description: Allows for one free small to medium Colsec ship purchase. Destroyed on sale.
-=======
   name: TSFMC sergeant ship voucher
   description: Allows for one free small to medium TSFMC ship purchase. Destroyed on sale.
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     layers:
@@ -51,13 +46,8 @@
 - type: entity
   parent: ShipVoucherNfsdSergeant
   id: ShipVoucherNfsdBailiff
-<<<<<<< HEAD
-  name: Colsec bailiff ship voucher
-  description: Allows for one free small to capital Colsec ship purchase. Destroyed on sale.
-=======
   name: TSFMC bailiff ship voucher
   description: Allows for one free small to capital TSFMC ship purchase. Destroyed on sale.
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     layers:

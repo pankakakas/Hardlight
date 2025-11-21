@@ -135,9 +135,6 @@ entities:
             color: '#FFFFFFFF'
             id: BrickLineOverlayS
           decals:
-<<<<<<< HEAD:Resources/Maps/_Flooftier/Shuttles/gondola.yml
-            21: -2,-6
-=======
             166: 0,-21
         - node:
             color: '#FFFFFFFF'
@@ -288,7 +285,6 @@ entities:
             153: -1,-26
             169: -3,-20
             170: 1,-20
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320)):Resources/Maps/_Mono/Shuttles/Nfsd/calypso.yml
         - node:
             color: '#85DAEBFF'
             id: BrickTileWhiteLineW
@@ -305,12 +301,6 @@ entities:
           decals:
             30: 3,-16
         - node:
-<<<<<<< HEAD:Resources/Maps/_Flooftier/Shuttles/gondola.yml
-            color: '#DA8BC9FF'
-            id: DeliveryGreyscale
-          decals:
-            31: 3,-14
-=======
             color: '#3E526596'
             id: HalfTileOverlayGreyscale
           decals:
@@ -386,7 +376,6 @@ entities:
             49: -1,-17
             102: 4,-21
             158: 0,-20
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320)):Resources/Maps/_Mono/Shuttles/Nfsd/calypso.yml
         - node:
             color: '#FFFFFFFF'
             id: HalfTileOverlayGreyscale90

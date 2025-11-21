@@ -30,9 +30,6 @@
     - SuitEVA
     - WhitelistChameleon
 
-<<<<<<< HEAD
-#FS suit
-=======
 # DEPARTMENTAL
 - type: entity
   parent: NFClothingOuterEVASuitBase
@@ -1472,7 +1469,6 @@
     clothingPrototype: ClothingHeadEVAHelmetArcadia
 
 #FSB suit
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 - type: entity
   parent: NFClothingOuterEVASuitBase

@@ -69,9 +69,6 @@ entities:
     - type: DecalGrid
       chunkCollection:
         version: 2
-<<<<<<< HEAD:Resources/Maps/_HL/Shuttles/verdure.yml
-        nodes: []
-=======
         nodes:
         - node:
             color: '#FFFFFFFF'
@@ -422,7 +419,6 @@ entities:
             41: -1,5
             99: -4,-2
             110: -3,-8
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320)):Resources/Maps/_Mono/Shuttles/Nfsd/anura.yml
     - type: GridAtmosphere
       version: 2
       data:

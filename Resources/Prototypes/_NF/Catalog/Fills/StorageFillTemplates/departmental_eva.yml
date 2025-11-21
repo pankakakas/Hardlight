@@ -381,3 +381,17 @@
     - id: ClothingMaskBreath
     - id: JetpackMiniFilled
     - id: ClothingShoesBootsMag
+
+- type: entity
+  abstract: true
+  id: StorageFillEVASuitFsc
+  description: Contains a standard issue Far Star Corporation (FSC) EVA suit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: OxygenTankFilled
+    - id: NitrogenTankFilled
+    - id: ClothingOuterEVASuitFsc
+    - id: ClothingMaskBreath
+    - id: JetpackMiniFilled
+    - id: ClothingShoesBootsMag

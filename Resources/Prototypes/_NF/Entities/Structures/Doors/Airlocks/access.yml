@@ -83,11 +83,7 @@
 - type: entity
   parent: AirlockNfsdGlass
   id: AirlockNfsdGlassLocked
-<<<<<<< HEAD
-  suffix: NFSD, Locked
-=======
   suffix: TSFMC, Locked
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: ContainerFill
     containers:
@@ -96,11 +92,7 @@
 - type: entity
   parent: AirlockNfsd
   id: AirlockNfsdLocked
-<<<<<<< HEAD
-  suffix: NFSD, Locked
-=======
   suffix: TSFMC, Locked
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: ContainerFill
     containers:
@@ -109,11 +101,7 @@
 - type: entity
   parent: AirlockNfsd
   id: AirlockNfsdBrigLocked
-<<<<<<< HEAD
-  suffix: NFSD Brig, Locked
-=======
   suffix: TSFMC Brig, Locked
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: ContainerFill
     containers:
@@ -122,11 +110,7 @@
 - type: entity
   parent: AirlockNfsdGlass
   id: AirlockNfsdBrigGlassLocked
-<<<<<<< HEAD
-  suffix: NFSD Brig, Locked
-=======
   suffix: TSFMC Brig, Locked
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: ContainerFill
     containers:
@@ -135,11 +119,7 @@
 - type: entity
   parent: AirlockNfsd
   id: AirlockNfsdDetectiveLocked
-<<<<<<< HEAD
-  suffix: NFSD Detective, Locked
-=======
   suffix: TSFMC Detective, Locked
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: ContainerFill
     containers:
@@ -148,11 +128,7 @@
 - type: entity
   parent: AirlockNfsdGlass
   id: AirlockNfsdDetectiveGlassLocked
-<<<<<<< HEAD
-  suffix: NFSD Detective, Locked
-=======
   suffix: TSFMC Detective, Locked
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: ContainerFill
     containers:
@@ -160,10 +136,6 @@
 
 - type: entity
   parent: AirlockNfsd
-<<<<<<< HEAD
-  id: AirlockNfsdArmoryLocked
-  suffix: NFSD Armory, Locked
-=======
   id: AirlockNfsdLawyerLocked
   suffix: TSFMC Lawyer, Locked
   components:
@@ -184,7 +156,6 @@
   parent: AirlockNfsd
   id: AirlockNfsdArmoryLocked
   suffix: TSFMC Armory, Locked
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: ContainerFill
     containers:
@@ -193,11 +164,7 @@
 - type: entity
   parent: AirlockNfsdGlass
   id: AirlockNfsdArmoryGlassLocked
-<<<<<<< HEAD
-  suffix: NFSD Armory, Locked
-=======
   suffix: TSFMC Armory, Locked
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: ContainerFill
     containers:
@@ -288,11 +255,7 @@
 - type: entity
   parent: AirlockExternalGlassNfsd
   id: AirlockExternalGlassNfsdLocked
-<<<<<<< HEAD
-  suffix: NFSD, Glass, Locked
-=======
   suffix: TSFMC, Glass, Locked
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: ContainerFill
     containers:
@@ -301,11 +264,7 @@
 - type: entity
   parent: AirlockShuttleNfsd
   id: AirlockShuttleNfsdLocked
-<<<<<<< HEAD
-  suffix: NFSD, Docking, Locked
-=======
   suffix: TSFMC, Docking, Locked
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: ContainerFill
     containers:
@@ -314,11 +273,7 @@
 - type: entity
   parent: AirlockGlassShuttleNfsd
   id: AirlockGlassShuttleNfsdLocked
-<<<<<<< HEAD
-  suffix: NFSD, Glass, Docking, Locked
-=======
   suffix: TSFMC, Glass, Docking, Locked
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: ContainerFill
     containers:

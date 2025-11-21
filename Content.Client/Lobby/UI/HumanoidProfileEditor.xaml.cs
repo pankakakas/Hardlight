@@ -120,6 +120,7 @@ namespace Content.Client.Lobby.UI
         private readonly JobRequirementsManager _requirements;
         private readonly LobbyUIController _controller;
         private readonly EntityWhitelistSystem _whitelist; // Frontier
+        private readonly SpriteSystem _sprite;
 
         private FlavorText.FlavorText? _flavorText;
         private TextEdit? _flavorTextEdit;
@@ -200,6 +201,7 @@ namespace Content.Client.Lobby.UI
             _controller = UserInterfaceManager.GetUIController<LobbyUIController>();
 
             _whitelist = _entManager.System<EntityWhitelistSystem>(); // Frontier
+            _sprite = _entManager.System<SpriteSystem>();
 
             ImportButton.OnPressed += args =>
             {
@@ -574,9 +576,6 @@ namespace Content.Client.Lobby.UI
             #endregion Markings
 
             RefreshFlavorText();
-
-            // Ensure tab titles are correct after initial setup.
-            UpdateTabTitles();
 
             #region Dummy
 
@@ -2300,11 +2299,6 @@ namespace Content.Client.Lobby.UI
 
                 Logger.Debug($"Found company at index {i}: {companies[i].ID} - {companies[i].Name}");
                 CompanyButton.SelectId(i);
-
-                // Description of Company (pointed-to in prototype, defined in Locale)
-                CompanyDescriptionLabel.SetMessage(!string.IsNullOrEmpty(companies[i].Description)
-                    ? Loc.GetString(companies[i].Description)
-                    : "N/A"); // Only if there's a description. If not, then set to N/A.
 
                 found = true;
                 break;

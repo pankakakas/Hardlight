@@ -108,11 +108,7 @@
 - type: entity
   id: LockerNfsdEvidence
   parent: [NFLockerBaseSecure, LockerSecurity]
-<<<<<<< HEAD
-  name: Colsec evidence locker
-=======
   name: TSFMC evidence locker
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: nfsd
@@ -123,11 +119,7 @@
 - type: entity
   id: LockerNfsdCopper
   parent: [NFLockerBaseSecure, LockerSecurity]
-<<<<<<< HEAD
-  name: Colsec locker
-=======
   name: TSFMC locker
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   suffix: Copper
   components:
   - type: EntityStorageVisuals
@@ -139,11 +131,7 @@
 - type: entity
   id: LockerNfsdSilver
   parent: [NFLockerBaseSecure, LockerSecurity]
-<<<<<<< HEAD
-  name: Colsec locker
-=======
   name: TSFMC locker
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   suffix: Silver
   components:
   - type: EntityStorageVisuals
@@ -154,13 +142,8 @@
 # NFSD Brigmedic
 - type: entity
   id: LockerNfsdBrigmedic
-<<<<<<< HEAD
-  parent: NFLockerBaseSecure
-  name: Colsec locker
-=======
   parent: [NFLockerBaseSecure, LockerSecurity]
   name: TSFMC locker
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   suffix: Brigmedic
   components:
   - type: EntityStorageVisuals
@@ -174,11 +157,7 @@
 - type: entity
   id: LockerNfsdSergeant
   parent: NFLockerBaseSecure
-<<<<<<< HEAD
-  name: Colsec locker
-=======
   name: TSFMC locker
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   suffix: Sergeant
   components:
   - type: EntityStorageVisuals
@@ -192,11 +171,7 @@
 - type: entity
   id: LockerNfsdBailiff
   parent: LockerNfsdSergeant
-<<<<<<< HEAD
-  name: Colsec locker
-=======
   name: TSFMC locker
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   suffix: Bailiff
   components:
   - type: AccessReader
@@ -206,13 +181,8 @@
 - type: entity
   id: LockerNfsdSheriff
   parent: [NFLockerBaseSecure, LockerHeadOfSecurity]
-<<<<<<< HEAD
-  name: Colsec locker
-  suffix: Sheriff
-=======
   name: TSFMC locker
   suffix: Colonel
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: nfsd_sheriff

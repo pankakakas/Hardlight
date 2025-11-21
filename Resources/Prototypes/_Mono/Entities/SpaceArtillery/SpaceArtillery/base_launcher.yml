@@ -95,7 +95,6 @@
   - type: Pullable
   - type: PirateBountyItem # not putting this on the other, because like. how do you get a cyrexa for your bounty. thats stupid.
     id: ShipWeapon
-<<<<<<< HEAD
 
 - type: entity
   id: BallisticArtilleryBaseCartridge
@@ -292,5 +291,3 @@
   abstract: true
   components:
   - type: RequiresGrid
-=======
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))

@@ -8,8 +8,6 @@
 
 # Notes:
 # just a little loot n shoot POI. Pretty much the second POI to even exist
-<<<<<<< HEAD
-=======
 - type: pointOfInterest
   id: LPBravo
   parent: BasePOI
@@ -28,7 +26,6 @@
   - type: SolarPoweredGrid
     trackOnInit: true
     doNotCull: true
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 
 # HL: Commented out

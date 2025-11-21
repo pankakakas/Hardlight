@@ -1,10 +1,6 @@
 - type: localizedDataset
   id: DescriptionsCookieFortune
   values:
-<<<<<<< HEAD
-    prefix: descriptions-cookie-fortune-dataset-
-    count: 79
-=======
   - The end is near... and it's all your fault.
   - We know what you did.
   - Beware.
@@ -84,4 +80,3 @@
   - Did you know that 70% of the TSFMC applicants go missing within the first years of their contract? The more you know!!
   - This shift you are going to do a very robust move in front of everyone.
   - Robustness is not just about how good you are, but how good of a person you are.
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))

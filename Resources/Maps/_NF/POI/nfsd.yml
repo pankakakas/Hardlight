@@ -2018,9 +2018,6 @@ entities:
     - type: Transform
       pos: 16.5,6.5
       parent: 1
-<<<<<<< HEAD
-- proto: AirlockExternalGlass
-=======
   - uid: 519
     components:
     - type: Transform
@@ -6416,7 +6413,6 @@ entities:
       canCollide: False
     - type: InsideEntityStorage
 - proto: Railing
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   entities:
   - uid: 1432
     components:

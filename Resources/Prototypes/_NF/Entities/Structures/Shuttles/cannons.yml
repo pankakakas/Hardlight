@@ -2,11 +2,7 @@
 - type: entity
   id: ShuttleGunFriendshipNfsd
   parent: [BaseStructureDisableToolUse, ShuttleGunFriendship]
-<<<<<<< HEAD
-  suffix: NFSD
-=======
   suffix: TSFMC
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Machine
     board: Null
@@ -14,11 +10,7 @@
 - type: entity
   id: ShuttleGunDusterNfsd
   parent: [BaseStructureDisableToolUse, ShuttleGunDuster]
-<<<<<<< HEAD
-  suffix: NFSD
-=======
   suffix: TSFMC
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Machine
     board: Null

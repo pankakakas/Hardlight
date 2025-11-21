@@ -151,13 +151,8 @@
 - type: entity
   parent: [ ClothingOuterHardsuitBaseNFNfsd, BaseC3ExpeditionContraband ]
   id: ClothingOuterHardsuitNfsdBronze
-<<<<<<< HEAD
-  name: Colsec bronze patrol suit
-  description: The standard-issue Colsec space proof suit for patrol duty. This bronze variant has cadet rank markings.
-=======
   name: TSFMC M73 tacsuit
   description: The standard-issue TSFMC tacsuit for patrol duty. This bronze variant has private rank markings.
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_bronze.rsi
@@ -183,13 +178,8 @@
 - type: entity
   parent: ClothingOuterHardsuitNfsdBronze
   id: ClothingOuterHardsuitNfsdSilver
-<<<<<<< HEAD
-  name: Colsec silver patrol suit
-  description: The standard-issue Colsec space proof suit for patrol duty. This silver variant has officer rank markings.
-=======
   name: TSFMC M73 tacsuit
   description: The standard-issue TSFMC tacsuit for patrol duty. This silver variant has corporal rank markings.
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_silver.rsi
@@ -201,13 +191,8 @@
 - type: entity
   parent: ClothingOuterHardsuitNfsdBronze
   id: ClothingOuterHardsuitNfsdGold
-<<<<<<< HEAD
-  name: Colsec gold patrol suit
-  description: The standard-issue Colsec space proof suit for patrol duty. This gold variant has supervisor rank markings.
-=======
   name: TSFMC M73 tacsuit
   description: The standard-issue TSFMC tacsuit for patrol duty. This gold variant has senior rank markings.
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_gold.rsi
@@ -217,17 +202,10 @@
     clothingPrototype: ClothingHeadHelmetHardsuitNfsdGold
 
 - type: entity
-<<<<<<< HEAD
-  parent: [ ClothingOuterHardsuitSecurityRed, BaseC3ExpeditionContraband ]
-  id: ClothingOuterHardsuitNfsdSheriff
-  name: Colsec sheriff patrol suit
-  description: The standard-issue Colsec space proof suit for patrol duty. This gold variant has sheriff rank markings.
-=======
   parent: ClothingOuterHardsuitBaseNFNfsd
   id: ClothingOuterHardsuitNfsdSheriff
   name: TSFMC M92 tacsuit
   description: A heavy tacsuit, capable of taking a lot of physical damage.
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_sheriff.rsi
@@ -253,13 +231,8 @@
 - type: entity
   parent: ClothingOuterHardsuitNfsdBronze
   id: ClothingOuterHardsuitNfsdBrigmedic
-<<<<<<< HEAD
-  name: Colsec brigmedic patrol suit
-  description: The standard-issue Colsec space proof suit for patrol duty. This brighter variant has brigmedic rank markings.
-=======
   name: TSFMC M73-M tacsuit
   description: A variant of the M73 tacsuit for combat medical and NBC use. Provides greater caustic and radiation protection.
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_brigmed.rsi
@@ -280,13 +253,8 @@
 - type: entity
   parent: [BaseC2ContrabandUnredeemable, ClothingOuterHardsuitJuggernaut, BaseC3ExpeditionContraband] # Jugger Suit
   id: ClothingOuterHardsuitNfsdExperimental
-<<<<<<< HEAD
-  name: Colsec experimental combat suit
-  description: A very heavily armored Colsec suit. This space proof marvel of engineering uses state of the art alloys to provide immense protection while sacrificing little mobility.
-=======
   name: TSFMC M92-X tacsuit
   description: A experimental modification of the M92 tacsuit for spec-ops units of the TSFMC. Externally the same, internally its higher-quality alloys and fabric.
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_experimental.rsi
@@ -318,13 +286,8 @@
 - type: entity
   parent: [ ClothingOuterHardsuitBaseNFNfsd, BaseC3ExpeditionContraband ]
   id: ClothingOuterHardsuitNfsdCombat
-<<<<<<< HEAD
-  name: Colsec combat suit
-  description: A heavily armored Colsec suit. Space proof, with thick armor plating at the expense of mobility.
-=======
   name: TSFMC M93 tacsuit
   description: A heavily armored TSFMC suit. Space proof, with thick armor plating at the expense of mobility.
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_combat.rsi
@@ -337,24 +300,6 @@
   - type: Armor  # Hardlight change.
     modifiers:
       coefficients:
-<<<<<<< HEAD
-        Blunt: 0.5
-        Slash: 0.5
-        Piercing: 0.3
-        Heat: 0.60
-        Radiation: 0.50
-        Caustic: 0.7
-  - type: ClothingSpeedModifier  # Hardlight change 25 percent is way to much for the little armor it gives
-    walkModifier: 0.85
-    sprintModifier: 0.85
-
-#Security Command Hardsuit
-- type: entity
-  parent: [ClothingOuterHardsuitSyndieCommander, BaseC3ExpeditionContraband ]
-  id: ClothingOuterHardsuitNfsdCommand # Hardlight change
-  name: Colsec command combat suit
-  description: A heavily armored Colsec suit. Space proof, with thick armor plating at the expense of mobility with built in Non-slip boots. This variant has supervisor rank markings
-=======
         Blunt: 0.25
         Slash: 0.35
         Piercing: 0.35
@@ -371,7 +316,6 @@
   id: ClothingOuterHardsuitNfsdCommand
   name: TSFMC M93-C tacsuit
   description: A variant of the M93 tacsuit with slightly better plating. It isn't much extra.
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_command.rsi
@@ -384,18 +328,6 @@
   - type: Armor
     modifiers:
       coefficients:
-<<<<<<< HEAD
-        Blunt: 0.5
-        Slash: 0.5
-        Piercing: 0.5
-        Heat: 0.50
-        Radiation: 0.4
-        Caustic: 0.6
-  - type: ClothingSpeedModifier  # Hardlight Change  this is to match bloodred commander
-    walkModifier: 0.9
-    sprintModifier: 0.9
-  - type: NoSlip  # Hardlight change  Sheriff should be hte only one with this
-=======
         Blunt: 0.225
         Slash: 0.325
         Piercing: 0.325
@@ -405,7 +337,6 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.8
     sprintModifier: 0.8
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 # SCAF hardsuit
 - type: entity

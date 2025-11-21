@@ -180,13 +180,6 @@ entities:
             35: 2,3
             57: -4,9
         - node:
-<<<<<<< HEAD:Resources/Maps/_NF/Shuttles/Sr/tumour2.yml
-            color: '#FFFFFFFF'
-            id: TechCornerN
-          decals:
-            83: 3,2
-            84: 2,1
-=======
             color: '#3E526596'
             id: HalfTileOverlayGreyscale
           decals:
@@ -237,7 +230,6 @@ entities:
             id: ThreeQuarterTileOverlayGreyscale270
           decals:
             33: -2,0
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320)):Resources/Maps/_Mono/Shuttles/Nfsd/tumour.yml
         - node:
             color: '#FFFFFFFF'
             id: TechE

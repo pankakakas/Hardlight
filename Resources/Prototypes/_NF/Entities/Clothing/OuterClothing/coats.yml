@@ -58,11 +58,7 @@
 - type: entity
   parent: [ ClothingOuterStorageBase, BaseC3ContrabandUnredeemable ]
   id: ClothingOuterCoatNfsdBomber
-<<<<<<< HEAD
-  name: Colsec bomber
-=======
   name: TSFMC bomber
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Lookin' slick Tom.
   components:
   - type: Sprite
@@ -73,11 +69,7 @@
 - type: entity
   parent: [ ClothingOuterStorageBase, BaseC3ContrabandUnredeemable ]
   id: ClothingOuterCoatNfsdBomberBrigmed
-<<<<<<< HEAD
-  name: Colsec brigmedic bomber
-=======
   name: TSFMC brigmedic bomber
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Blood may stain.
   components:
   - type: Sprite
@@ -88,11 +80,7 @@
 - type: entity
   parent: [ ClothingOuterStorageBase, BaseC3ContrabandUnredeemable ]
   id: ClothingOuterCoatNfsdFormal
-<<<<<<< HEAD
-  name: Colsec formal coat
-=======
   name: TSFMC formal coat
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Snazzy.
   components:
   - type: Sprite
@@ -103,11 +91,7 @@
 - type: entity
   parent: [ ClothingOuterStorageBase, BaseC3ContrabandUnredeemable ]
   id: ClothingOuterCoatNfsdFormalSheriff
-<<<<<<< HEAD
-  name: Colsec sheriff's formal coat
-=======
   name: TSFMC colonel's formal coat
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Very snazzy.
   components:
   - type: Sprite
@@ -118,11 +102,7 @@
 - type: entity
   parent: [ ClothingOuterStorageBase, BaseC3ContrabandUnredeemable ]
   id: ClothingOuterCoatNfsdLongCoat
-<<<<<<< HEAD
-  name: Colsec long coat
-=======
   name: TSFMC long coat
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Big iron on his hip...
   components:
   - type: Sprite

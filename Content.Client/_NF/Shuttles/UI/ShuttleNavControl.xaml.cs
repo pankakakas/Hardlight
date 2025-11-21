@@ -15,8 +15,6 @@ namespace Content.Client.Shuttles.UI
 {
     public sealed partial class ShuttleNavControl
     {
-        public InertiaDampeningMode DampeningMode { get; set; }
-
         /// <summary>
         /// Whether the shuttle is currently in FTL. This is used to disable the Park button
         /// while in FTL to prevent parking while traveling.

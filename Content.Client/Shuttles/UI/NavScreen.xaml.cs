@@ -8,6 +8,7 @@ using Robust.Client.UserInterface.XAML;
 using Robust.Shared.GameObjects;
 using Robust.Shared.Map;
 using Robust.Shared.Physics.Components;
+using Robust.Shared.Prototypes;
 
 namespace Content.Client.Shuttles.UI;
 

@@ -554,15 +554,9 @@
   parent:
   - VehicleHoverbikeMailcarrier
   - BaseC2ContrabandUnredeemable
-<<<<<<< HEAD
-  id: NFVehicleHoverbikeNfsd
-  name: Colsec hoverbike
-  description: a Colsec issued turbine with bike handles. Very safe.
-=======
   id: VehicleHoverbikeNfsd
   name: TSFMC hoverbike
   description: An TSFMC issued turbine with bike handles. Very safe.
->>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Vehicle
     sirenSound:
@@ -623,7 +617,7 @@
     mask: /Textures/Effects/LightMasks/double_cone.png
 
 - type: entity
-  parent: NFVehicleHoverbikeNfsd
+  parent: VehicleHoverbikeNfsd
   id: NFVehicleHoverbikeNfsdKey
   suffix: With key
   components:
