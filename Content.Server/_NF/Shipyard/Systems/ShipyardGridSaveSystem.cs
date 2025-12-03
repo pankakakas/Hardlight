@@ -637,6 +637,9 @@ public sealed class ShipyardGridSaveSystem : EntitySystem
             "DeviceList",
             "DeviceNetwork",
             "DeviceNetworkComponent",
+            "UserInterface", // Contains invalid EntityUid references
+            "Docking", // Contains invalid EntityUid references to docked entities
+            "ActionGrant", // Contains invalid EntityUid references to granted actions
         };
 
         // Prototype-level exclusions for obvious non-ship entities.
@@ -1186,6 +1189,22 @@ public sealed class ShipyardGridSaveSystem : EntitySystem
                         compMap["currentCharge"] = new ValueDataNode("0");
                         compMap["CurrentCharge"] = new ValueDataNode("0");
                     }
+
+                    // DeviceNetwork: clear device lists that contain invalid EntityUid references
+                    if (typeName == "DeviceNetwork")
+                    {
+                        compMap.Remove("devices");
+                        compMap.Remove("Devices");
+                    }
+
+                    // UserInterface: remove to prevent invalid EntityUid references
+                    // (This is handled by filteredTypes but adding explicit note)
+
+                    // Docking: remove to prevent invalid EntityUid references to docked entities
+                    // (This is handled by filteredTypes but adding explicit note)
+
+                    // ActionGrant: remove to prevent invalid EntityUid references to granted actions
+                    // (This is handled by filteredTypes but adding explicit note)
 
                     newComps.Add(compMap);
                 }
